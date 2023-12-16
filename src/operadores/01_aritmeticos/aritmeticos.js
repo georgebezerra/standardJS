@@ -1,4 +1,3 @@
-//valores literais
 console.log('VALORES LITERAIS')
 console.log(7 + 3);
 console.log(6 -7);
@@ -8,7 +7,6 @@ console.log(8 % 3);
 
 console.log('##################################################')
 
-//valores por atribuição
 console.log('VALORES POR ATRIBUIÇÃO')
 let a = 8;
 let b = 11;

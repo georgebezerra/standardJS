@@ -14,7 +14,7 @@ console.log(
 );
 
 let falso1 = 8 - 4 > 12 || false || 15 === '15';
-let falso2 = !(7 !== 7 || '3' !== 3);
+let falso2 = !(7 !== 6 + 1 || '3' !== 3);
 
 console.log(falso1);
 console.log(falso2);

@@ -1,6 +1,6 @@
-console.log('NEGAÇÃO');
-console.log(!true);
-console.log(!false);
+console.log('\nNEGAÇÃO');
+console.log('Não verdadeiro: ' + !true);
+console.log('Não falso: ' + !false);
 
 console.log('\nAFIRMAÇÃO');
 console.log(!!true);

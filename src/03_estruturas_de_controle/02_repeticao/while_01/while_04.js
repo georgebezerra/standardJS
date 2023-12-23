@@ -6,10 +6,6 @@ while (controle <= 10) {
   console.log(controle);
   controle++;
 }
-
-// while (((i = 1), i <= 10, i++)) {
-//   i++;
-//   console.log(i);
-// }
+// declaração,expressão e incremento => Qtde determinada
 
 console.log('Fim !!!');

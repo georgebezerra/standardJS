@@ -5,7 +5,6 @@ console.log('Função sem currying');
 function somar1(a, b) {
   return a + b;
 }
-
 console.log(somar1(5, 4));
 
 console.log('\nFunção com currying');
@@ -14,7 +13,6 @@ function somar2(a) {
     return a + b;
   };
 }
-
 console.log(somar2(5, 4)); //errado
 console.log(somar2(5)(4)); //certo - currying
 

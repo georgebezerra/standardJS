@@ -1,4 +1,4 @@
-console.log('Este algoritimo mostra que THIS é um Objeto global');
+console.log('Dentro de uma função comum o THIS é um Objeto global');
 function produto() {
   console.log(this);
 }

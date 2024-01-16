@@ -35,7 +35,7 @@ function praCadaElemento(elemento, indice, array) {
 numeros.forEach(praCadaElemento);
 
 console.log(
-  '\nPassando seprado cada um dos parâmetros; elemento, indice e array',
+  '\nPassando separado cada um dos parâmetros; elemento, indice e array',
 );
 numeros.forEach(function (elemento) {
   console.log(elemento + ' - Pecorrendo somente os elementos do array');

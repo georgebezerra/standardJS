@@ -5,6 +5,19 @@
 const arr = ['apple', 'banana', 'cherry'];
 const iterator = arr.values();
 
+console.log('\nImprimindo o array');
+console.log(arr);
+
+console.log('\n Validando o type do array');
+console.log(typeof arr);
+console.log(typeof iterator);
+
+console.log('\n Validando se o array é um array');
+console.log(Array.isArray(arr));
+console.log(Array.isArray(iterator));
+console.log(iterator);
+
+console.log('\nImprimindo os valores usando arr.values + for of');
 for (const value of iterator) {
   console.log(value);
 }
